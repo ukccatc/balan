@@ -1,0 +1,36 @@
+2021-02-17T16:37:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function my_breadcrumb_title_swapper(), 1 passed in E:\OpenServer\domains\project-bal.local\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\functions.php:764
+Stack trace:
+#0 E:\OpenServer\domains\project-bal.local\wp-includes\class-wp-hook.php(289): my_breadcrumb_title_swapper()
+#1 E:\OpenServer\domains\project-bal.local\wp-includes\plugin.php(212): WP_Hook->apply_filters()
+#2 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb.php(102): apply_filters()
+#3 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb.php(60): bcn_breadcrumb->set_title()
+#4 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb_trail.php(540): bcn_breadcrumb->__construct()
+#5 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb_tr у E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\functions.php доступно 764
+
+2021-02-17T16:38:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function my_breadcrumb_title_swapper(), 1 passed in E:\OpenServer\domains\project-bal.local\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\functions.php:764
+Stack trace:
+#0 E:\OpenServer\domains\project-bal.local\wp-includes\class-wp-hook.php(289): my_breadcrumb_title_swapper()
+#1 E:\OpenServer\domains\project-bal.local\wp-includes\plugin.php(212): WP_Hook->apply_filters()
+#2 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb.php(102): apply_filters()
+#3 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb.php(60): bcn_breadcrumb->set_title()
+#4 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb_trail.php(540): bcn_breadcrumb->__construct()
+#5 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb_tr у E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\functions.php доступно 764
+
+2021-02-17T16:41:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function my_breadcrumb_title_swapper(), 1 passed in E:\OpenServer\domains\project-bal.local\wp-includes\class-wp-hook.php on line 289 and exactly 2 expected in E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\functions.php:764
+Stack trace:
+#0 E:\OpenServer\domains\project-bal.local\wp-includes\class-wp-hook.php(289): my_breadcrumb_title_swapper()
+#1 E:\OpenServer\domains\project-bal.local\wp-includes\plugin.php(212): WP_Hook->apply_filters()
+#2 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb.php(102): apply_filters()
+#3 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb.php(60): bcn_breadcrumb->set_title()
+#4 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb_trail.php(540): bcn_breadcrumb->__construct()
+#5 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb_tr у E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\functions.php доступно 764
+
+2021-02-17T16:42:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function my_breadcrumb_title_swapper(), 1 passed in E:\OpenServer\domains\project-bal.local\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\functions.php:764
+Stack trace:
+#0 E:\OpenServer\domains\project-bal.local\wp-includes\class-wp-hook.php(289): my_breadcrumb_title_swapper()
+#1 E:\OpenServer\domains\project-bal.local\wp-includes\plugin.php(212): WP_Hook->apply_filters()
+#2 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb.php(102): apply_filters()
+#3 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb.php(60): bcn_breadcrumb->set_title()
+#4 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb_trail.php(540): bcn_breadcrumb->__construct()
+#5 E:\OpenServer\domains\project-bal.local\wp-content\plugins\breadcrumb-navxt\class.bcn_breadcrumb_tr у E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\functions.php доступно 764
+
