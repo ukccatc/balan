@@ -2646,7 +2646,7 @@ if ( !class_exists( "Redux_Framework_options_config" ) ) {
 						'title' => __('Help Bar Text', 'atelier'),
 						'subtitle' => __('This text appears in the help bar on checkout pages.', 'atelier'),
 						'desc' => '',
-						'default' => 'Need help? Call customer services on 0800 123 4567.'
+						'default' => __('Need help? Call customer services on 0800 123 4567.', 'atelier'),
 						),
 					array(
 						'id' => 'email_modal_title',

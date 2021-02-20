@@ -13899,3 +13899,8 @@ input[type="file"] {
 .mobile-browser .portfolio-items .portfolio-item, .mobile-browser .blog-items .blog-item, .mobile-browser .masonry-gallery .gallery-image, .mobile-browser .gallery-items .gallery-item {
 	opacity: 1;
 }
+
+/* #Rostovtsev edit
+================================================== */
+/*!*hide breadcrumbs on home page*!*/
+body.page-id-14812 #breadcrumbs { display: none; }

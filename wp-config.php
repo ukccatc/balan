@@ -37,6 +37,9 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define( 'DB_COLLATE', '' );
 
+//global $locale;
+//$locale = 'uk_UA';
+
 /**#@+
  * Уникальные ключи и соли для аутентификации.
  *
@@ -76,7 +79,7 @@ $table_prefix = 'wp_';
  *
  * @link https://ru.wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* Это всё, дальше не редактируем. Успехов! */
 

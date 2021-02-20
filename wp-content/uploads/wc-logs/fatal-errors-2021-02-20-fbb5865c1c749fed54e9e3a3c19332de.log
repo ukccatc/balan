@@ -1,0 +1,15 @@
+2021-02-20T07:14:24+00:00 CRITICAL Maximum execution time of 60 seconds exceeded у E:\OpenServer\domains\project-bal.local\wp-includes\Requests\Transport\cURL.php доступно 463
+
+2021-02-20T07:42:37+00:00 CRITICAL Uncaught Error: Call to undefined function __e() in E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\swift-framework\core\sf-header.php:1169
+Stack trace:
+#0 E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\includes\overrides\sf-theme-functions.php(1281): atelier_get_account()
+#1 E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\template-parts\header\header-3.php(30): atelier_header_aux()
+#2 E:\OpenServer\domains\project-bal.local\wp-includes\template.php(732): require('E:\\OpenServer\\d...')
+#3 E:\OpenServer\domains\project-bal.local\wp-includes\template.php(676): load_template()
+#4 E:\OpenServer\domains\project-bal.local\wp-includes\general-template.php(204): locate_template()
+#5 E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\swift-framework\core\sf-get-template.php(38): get_template_part()
+#6 E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\swift-framework\core\sf-header.php(146): atelier_get_header_layout()
+#7 E:\OpenServ у E:\OpenServer\domains\project-bal.local\wp-content\themes\atelier\swift-framework\core\sf-header.php доступно 1169
+
+2021-02-20T08:22:45+00:00 CRITICAL Maximum execution time of 60 seconds exceeded у E:\OpenServer\domains\project-bal.local\wp-includes\Requests\Transport\cURL.php доступно 463
+
