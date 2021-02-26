@@ -17,6 +17,6 @@ function my_breadcrumb_title_swapper($title, $type, $id)
 /* Rostovtsev locale
 ================================================== */
 add_action( 'after_setup_theme', 'rostovtsev');
-function my_theme_setup(){
+function rostovtsev(){
     load_theme_textdomain( 'rostovtsev', WP_CONTENT_DIR . 'plugins/rostovtsev-fuction-customization/languages' );
 }
