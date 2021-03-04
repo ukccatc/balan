@@ -20,17 +20,26 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define( 'DB_NAME', 'project_bal' );
+if (stristr($_SERVER['HTTP_HOST'], 'local') == 'local') {
+    define( 'DB_NAME', 'project_bal' );
 
-/** Имя пользователя MySQL */
-define( 'DB_USER', 'mysql' );
+    /** Имя пользователя MySQL */
+    define( 'DB_USER', 'mysql' );
 
-/** Пароль к базе данных MySQL */
-define( 'DB_PASSWORD', 'mysql' );
+    /** Пароль к базе данных MySQL */
+    define( 'DB_PASSWORD', 'mysql' );
 
+}
+else {
+    define('DB_NAME', 'opad');
+    /** MySQL database username */
+    define('DB_USER', 'opad2016');
+    /** MySQL database password */
+    define('DB_PASSWORD', 'opad2016');
+    define('WP_DEBUG', false);
+}
 /** Имя сервера MySQL */
 define( 'DB_HOST', 'localhost' );
-
 /** Кодировка базы данных для создания таблиц. */
 define( 'DB_CHARSET', 'utf8mb4' );
 
